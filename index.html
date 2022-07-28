@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Search by CEP</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <script defer src="./script.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1>Busca por CEP</h1>
+
+                <p>Digite o CEP desejado:</p>
+                <form id="form">
+                    <input name="cep" type="number" class="cep" placeholder="Digite seu CEP..." />
+                </form>
+
+                <br /><br />
+                <div class="result">
+                    
+                    <span id ='logradouro' class="street">Logradouro:</span><br />
+
+                    <span id ='bairro' class="district">Bairro:</span><br />
+
+                    <span id="localidade" class="city">Cidade:</span><br />
+
+                    <span id="uf" class="state">Estado:</span><br />
+
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
